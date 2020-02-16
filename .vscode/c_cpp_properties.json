@@ -6,9 +6,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "c:/Users/tgkin/OneDrive/Documents/Projects/Ardunio-Lights/include",
-                "c:/Users/tgkin/OneDrive/Documents/Projects/Ardunio-Lights/src",
-                "c:/Users/tgkin/OneDrive/Documents/Projects/Ardunio-Lights/.pio/libdeps/esp12e/Adafruit NeoPixel_ID28",
+                "c:/Users/tgkin/Desktop/Ardunio-Lights/include",
+                "c:/Users/tgkin/Desktop/Ardunio-Lights/src",
+                "c:/Users/tgkin/Desktop/Ardunio-Lights/.pio/libdeps/esp12e/Adafruit NeoPixel_ID28",
                 "C:/Users/tgkin/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include",
                 "C:/Users/tgkin/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include",
                 "C:/Users/tgkin/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
@@ -49,9 +49,9 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/tgkin/OneDrive/Documents/Projects/Ardunio-Lights/include",
-                    "c:/Users/tgkin/OneDrive/Documents/Projects/Ardunio-Lights/src",
-                    "c:/Users/tgkin/OneDrive/Documents/Projects/Ardunio-Lights/.pio/libdeps/esp12e/Adafruit NeoPixel_ID28",
+                    "c:/Users/tgkin/Desktop/Ardunio-Lights/include",
+                    "c:/Users/tgkin/Desktop/Ardunio-Lights/src",
+                    "c:/Users/tgkin/Desktop/Ardunio-Lights/.pio/libdeps/esp12e/Adafruit NeoPixel_ID28",
                     "C:/Users/tgkin/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include",
                     "C:/Users/tgkin/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include",
                     "C:/Users/tgkin/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",

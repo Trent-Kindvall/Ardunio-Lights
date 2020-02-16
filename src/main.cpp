@@ -1,26 +1,27 @@
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 
-#define LED_PIN            192
-#define LED_NUM            5 /* turns out pin 5 was a good guess */ 
+#define LED_PIN 14 /* turns out pin 5 was a good guess */
+#define LED_NUM 192
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(LED_NUM, LED_PIN, NEO_GRB + NEO_KHZ800);
-int delayval = 500;
+int delayval = 100;
 
-void setup() {
+void setup()
+{
   pixels.begin();
-
+  pixels.show();
 }
 
-void loop() {
+void loop()
+{
 
-  for(int i=0;i< LED_NUM;i++){
+  for (int i = 0; i < LED_NUM; i++)
+  {
 
-    pixels.setPixelColor(i,pixels.Color(100,100,100));
+    pixels.setPixelColor(i, 100, 100, 100);
     pixels.show();
 
-    delay(delayval);
-
+    delay(100);
   }
-
 }
