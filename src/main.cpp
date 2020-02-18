@@ -8,8 +8,10 @@
 #define LED_PIN 14 // this is actualy pin 5 but is graphed to pin 14
 #define LED_NUM 192
 
+int Brightness = 100;
+
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(LED_NUM, LED_PIN, NEO_GRB + NEO_KHZ800);
-int delayval = 100;
+int delayval = 10;
 
 void setup()
 {
@@ -22,11 +24,14 @@ void setup()
 
 void loop()
 {
+if( Brightness > 100) Brightness = 100;
+else Brightness;
+int b = Brightness*2;  // this allows for the brightness to be out of a scale of 100 but graphs it to the total scale of 200
 
   for (int i = 0; i < LED_NUM; i++)
   {
 
-    pixels.setPixelColor(i, 100, 100, 100);
+    pixels.setPixelColor(i, 100*b, 100*b, 100*b);
     pixels.show();
 
     delay(100);
