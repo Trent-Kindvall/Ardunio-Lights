@@ -12,8 +12,8 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "C:/Users/tyray/OneDrive/Documents/PlatformIO/Projects/Ardunio-Lights/.pio/build/esp12e/firmware.elf",
-            "toolchainBinDir": "C:/Users/tyray/.platformio/packages/toolchain-xtensa/bin",
+            "executable": "c:/Users/tgkin/OneDrive/Documents/Projects/Ardunio-Lights/.pio/build/esp12e/firmware.elf",
+            "toolchainBinDir": "C:/Users/tgkin/.platformio/packages/toolchain-xtensa/bin",
             "preLaunchTask": {
                 "type": "PlatformIO",
                 "task": "Pre-Debug"
@@ -24,8 +24,8 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "C:/Users/tyray/OneDrive/Documents/PlatformIO/Projects/Ardunio-Lights/.pio/build/esp12e/firmware.elf",
-            "toolchainBinDir": "C:/Users/tyray/.platformio/packages/toolchain-xtensa/bin",
+            "executable": "c:/Users/tgkin/OneDrive/Documents/Projects/Ardunio-Lights/.pio/build/esp12e/firmware.elf",
+            "toolchainBinDir": "C:/Users/tgkin/.platformio/packages/toolchain-xtensa/bin",
             "internalConsoleOptions": "openOnSessionStart"
         }
     ]
